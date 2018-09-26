@@ -25,7 +25,7 @@ A continuacion se procedera a explicar el marco teorico de los algoritmos usados
 
 El algoritmo planteado reccore el grafo desde el nivel superior y va bajando por nivel, es decir, primero recorrera todos los nodos de un nivel antes de bajar al siguiente. Para ello, se pondra una marca en un nodo en el momento en que es visitado, de tal manera que, inicialmente,no esta marcado ningun nodo del grafo.
 
-![alt_text][imagen1]
+![alt_text] [imagen1]
 
 
 
