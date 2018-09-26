@@ -17,4 +17,13 @@ y un conjunto de ciudades que representan los nodos, de un nodo a otro en el pre
 * Determinar y analizar la complejidad de los algoritmos planteados.
 * Generar la solucion mas optima al problema planteado(Problema del vendedor viajero).
 
+### 3. Marco Teorico
+
+A continuacion se procedera a explicar el marco teorico de los algoritmos usados para solucionar el problema del vendedor viajero
+
+#### 3.1 Marco teorico de BFS
+
+El algoritmo planteado reccore el grafo desde el nivel superior y va bajando por nivel, es decir, primero recorrera todos los nodos de un nivel antes de bajar al siguiente. Para ello, se pondra una marca en un nodo en el momento en que es visitado, de tal manera que, inicialmente,no esta marcado ningun nodo del grafo.
+
+
 
