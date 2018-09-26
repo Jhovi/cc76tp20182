@@ -1,0 +1,26 @@
+import math
+import heapq as hq
+
+def Lee(filename):
+    CP = []
+    with open('dataset.csv') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            CP.append(row[4], row[16],row[17])
+    return CP
+
+def bfs(G,s):
+    n = len(G)
+    visited = [-1]*n
+    queue = [s]
+    while len(queue)>0:
+        u,v = queue.pop(0)
+        if not visited[u]:
+            visited[u] = True
+            for v in G[u]:
+                if not visited[v]:
+                    queue.append(v)
+                    path[v] = u
+    return path
+
+print(bfs(lee(dataset.csv,683891))
