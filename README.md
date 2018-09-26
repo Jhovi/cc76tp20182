@@ -41,6 +41,24 @@ La búsqueda de costo uniforme (UCS) es un algoritmo de búsqueda árbol utiliza
 El algoritmo implica la expansion de nodos mediante la adicion a una cola de prioridad, asi tambien se sabe que este algoritmo es recursivo por ello el tiempo de ejecucion se da mediante la siguiente formula:
 
 ### T(n) = a*T(n-1) + O(n^k)
+
+
+donde:  a = Numero de subproblema es decir el numero de veces que se llamara de forma recursiva a la funcion
+        k = Es la complejidad por descomponer el problema y combinar las soluciones
+        
+ 
+ Luego se hallan los valores de a y k respectivamente:
+ 
+        a = 2
+        k = 0
+        
+  Donde nos quedaria: 
+  
+   ### T(n) = 2*T(n-1) + O(1)
+   
+   evaluando:
+
+         
     
     
 
