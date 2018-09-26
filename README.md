@@ -12,7 +12,7 @@ y un conjunto de ciudades que representan los nodos, de un nodo a otro en el pre
 
 ### 2. Objetivos
 
-..* Diseñar un algoritmo que permita solucionar de forma parcial o total el problema del vendedor viajero.
+..*Diseñar un algoritmo que permita solucionar de forma parcial o total el problema del vendedor viajero.
 ..* Analizar la importancia que tiene la aplicacion de los algoritmos en la vida diaria.
 ..* Determinar y analizar la complejidad de los algoritmos planteados.
 ..* Generar la solucion mas optima al problema planteado(Problema del vendedor viajero).
