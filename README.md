@@ -38,7 +38,7 @@ La búsqueda de costo uniforme (UCS) es un algoritmo de búsqueda árbol utiliza
 
 #### 4. Analisis de complejidad algoritmica
 
-El algoritmo implica la expansion de nodos mediante la adicion a una cola de prioridad, asi tambien se sabe que este algoritmo es recursivo por ello el tiempo de ejecucion se da mediante la siguiente formula:
+UCS: El algoritmo implica la expansion de nodos mediante la adicion a una cola de prioridad, asi tambien se sabe que este algoritmo es recursivo por ello el tiempo de ejecucion se da mediante la siguiente formula:
 
 ### T(n) = a*T(n-1) + O(n^k)
 
@@ -58,7 +58,37 @@ donde:  a = Numero de subproblema es decir el numero de veces que se llamara de 
    
    evaluando:
 
-         
+   ### T(n) = 2*(2^n)-1  
+   
+   En el peor de los casos se tendria un tiempo de ejecucion:
+   
+   ### Notacion Big(O) = O(2^n)
+   
+   Como se sabe, el algoritmo UCS en el peor de los casos tiene un tiempo de ejecucion de: 
+   
+   ### Notacion Big(O) = O(b^(1 + C*/ε))
+   
+   Donde C*/ε es el costo de la solucion optima.
+   
+   Reemplazando:
+   
+  ### Notacion Big(O) = O(2^n) + O(b^(1 + C*/ε))
+  
+#### 5. Conclusiones:
+
+Finalmente, se puede llegar a la conclusion que ambos algoritmos son necesarios y utiles de acuerdo al uso que le quieras dar,
+es decir si se busca el menor costo de viaje, entonces se deberia usar el algoritmo UCS, ya que en este se busca el menor numero 
+de costo de viaje. Sin embargo, si se desea que el recorrido sea en un tiempo menor, se deberia usar el algoritmo BFS, ya que
+por la busqueda en anchura se puede obtener un menor tiempo de ejecucion.
+
+#### 6. Bibliografia:
+
+Stack Overflow(2013)Time complexity of Uniform-cost search. Recuperado de https://stackoverflow.com/questions/19204682/time-complexity-of-uniform-cost-search
+
+Rihawi, I. (2009). Búsqueda no informada: Algoritmo de Coste Uniforme. Recuperado de https://poiritem.wordpress.com/2009/12/06/6-5-1-busqueda-no-informada-algoritmo-de-coste-uniforme/
+   
+   
+   
     
     
 
